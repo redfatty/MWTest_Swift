@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: cd9273ef3439de30ee65f1c5ca8038daf0b643ce
+PODS:
+  - Alamofire (4.4.0)
+  - SnapKit (3.2.0)
+  - SwiftProtobuf (0.9.902)
+
+DEPENDENCIES:
+  - Alamofire
+  - SnapKit
+  - SwiftProtobuf (from `https://github.com/apple/swift-protobuf.git`, tag `0.9.902`)
+
+EXTERNAL SOURCES:
+  SwiftProtobuf:
+    :git: https://github.com/apple/swift-protobuf.git
+    :tag: 0.9.902
+
+CHECKOUT OPTIONS:
+  SwiftProtobuf:
+    :git: https://github.com/apple/swift-protobuf.git
+    :tag: 0.9.902
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftProtobuf: 79aa204b6a8b7680740134000a2f6c6ef71e4b95
+
+PODFILE CHECKSUM: 0fcf29a31be16a4526c04d388037b2e0fa3fb04f
 
 COCOAPODS: 1.2.1

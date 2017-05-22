@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MWTest
 //
-//  Created by huangjiong on 2017/5/22.
+//  Created by huangjiong on 2017/5/17.
 //  Copyright © 2017年 huangjiong. All rights reserved.
 //
 
@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        let loginWelcomeVC = LoginWelcomeViewController.init(nibName: "LoginWelcomeViewController", bundle: nil)
+        window?.rootViewController = loginWelcomeVC
         return true
     }
 
